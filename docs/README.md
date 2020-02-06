@@ -2,6 +2,7 @@
 
 [![Build Status](https://agiletea.visualstudio.com/Agile%20Tea%20Swagger%20Api%20Versioning/_apis/build/status/agiletea.AgileTea.Swagger.ApiVersioning?branchName=master)]()
 [![NuGet Version](https://img.shields.io/nuget/v/AgileTea.AspNetCore.Swagger.ApiVersioning)](https://www.nuget.org/packages/AgileTea.AspNetCore.Swagger.ApiVersioning/)
+[![NuGet Preview Version](https://img.shields.io/nuget/vpre/AgileTea.AspNetCore.Swagger.ApiVersioning)](https://www.nuget.org/packages/AgileTea.AspNetCore.Swagger.ApiVersioning/)
 
 Combines Api Versioning with Api Versioning Discovery and Swagger Generation to provide a self-discovering api versioning configuration fronted with a Swashbuckle Swagger UI Frontend
 
