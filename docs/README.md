@@ -1,4 +1,4 @@
-#  <img src="swagger.png" alt="drawing" height="30"/> AgileTea.Swagger.ApiVersioning
+#  <img src="../swagger.png" alt="drawing" height="30"/> AgileTea.Swagger.ApiVersioning
 
 [![Build Status](https://agiletea.visualstudio.com/Agile%20Tea%20Swagger%20Api%20Versioning/_apis/build/status/agiletea.AgileTea.Swagger.ApiVersioning?branchName=master)]()
 [![NuGet Version](https://img.shields.io/nuget/v/AgileTea.AspNetCore.Swagger.ApiVersioning)](https://www.nuget.org/packages/AgileTea.AspNetCore.Swagger.ApiVersioning/)
