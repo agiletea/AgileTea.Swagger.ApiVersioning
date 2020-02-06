@@ -1,0 +1,45 @@
+# ASP.NET Core
+# Build and test ASP.NET Core projects targeting .NET Core.
+# Add steps that run tests, create a NuGet package, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+# the build will trigger on any changes to the master branch (NOT YET ACTIVE)
+trigger: none
+#  branches:
+#    include:
+#    - master
+#  paths:
+#    exclude:
+#    - README.md;azure-pipelines.yml;LICENSE;.gitignore
+
+# stop 2 build trigger from the submission of the Pull Request so we only get one from the CI merge
+pr: none
+
+# the build will run on a Microsoft hosted agent, using the lastest Windows VM Image
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  configuration: 'Release'
+
+steps:
+
+- task: DotNetCoreCLI@2
+  displayName: dotnet build
+  inputs:
+    command: build
+    configuration: $(configuration)
+    
+- task: DotNetCoreCLI@2
+  displayName: dotnet pack
+  inputs:
+    command: pack
+    configuration: $(configuration)
+    packDirectory: '$(Build.ArtifactStagingDirectory)/packages'
+
+- task: PublishBuildArtifacts@1
+  displayName: publish artifacts
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'

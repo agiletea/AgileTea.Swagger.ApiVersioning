@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileTea.Swagger.ApiVersioning", "src\AgileTea.Swagger.ApiVersioning\AgileTea.Swagger.ApiVersioning.csproj", "{B1AA7051-8612-445E-8C0B-748C4EF0E2F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8810AB21-8A6E-4C64-82E8-4E7331ABB13E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D5FE69BF-501F-4D54-A10B-195490CDE9D3}"
+	ProjectSection(SolutionItems) = preProject
+		docs\LICENSE = docs\LICENSE
+		docs\README.md = docs\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FF54C66-F674-4813-A26A-9E558BDC2198}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		CodeAnalysisRuleSet.ruleset = CodeAnalysisRuleSet.ruleset
+		swagger.png = swagger.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1AA7051-8612-445E-8C0B-748C4EF0E2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AA7051-8612-445E-8C0B-748C4EF0E2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AA7051-8612-445E-8C0B-748C4EF0E2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AA7051-8612-445E-8C0B-748C4EF0E2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1AA7051-8612-445E-8C0B-748C4EF0E2F3} = {8810AB21-8A6E-4C64-82E8-4E7331ABB13E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B0D5C24-B54A-45DC-A3BB-E739D55F4F36}
+	EndGlobalSection
+EndGlobal
