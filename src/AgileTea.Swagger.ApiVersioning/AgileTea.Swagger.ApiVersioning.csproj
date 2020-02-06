@@ -7,6 +7,21 @@
     <Nullable>Enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>Sets up api versioning, api exporer and swagger ui to automatically discover available web api versions in your aspnet core 3.0+ project</Description>
+    <PackageTags>aspnet-core, swagger, web-api, api, api-versioning</PackageTags>
+    <PackageProjectUrl>https://github.com/agiletea/AgileTea.Swagger.ApiVersioning</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/agiletea/AgileTea.Swagger.ApiVersioning</RepositoryUrl>
+    <Company>AgileTea</Company>
+    <Authors>Benjamin Jones</Authors>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageIcon>swagger.png</PackageIcon>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.0-preview1.20200206</Version>
+    <PackageReleaseNotes>Initial Preview release for testing</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.01</AssemblyVersion>
+    <FileVersion>1.0.0.01</FileVersion>
+    <PackageVersion>1.0.0-preview1.20200206</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

@@ -4,13 +4,13 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 # the build will trigger on any changes to the master branch (NOT YET ACTIVE)
-trigger: none
-#  branches:
-#    include:
-#    - master
-#  paths:
-#    exclude:
-#    - README.md;azure-pipelines.yml;LICENSE;.gitignore
+trigger: 
+  branches:
+    include:
+    - master
+  paths:
+    exclude:
+    - README.md;azure-pipelines.yml;LICENSE;.gitignore
 
 # stop 2 build trigger from the submission of the Pull Request so we only get one from the CI merge
 pr: none
